@@ -1,0 +1,7 @@
+CREATE SEQUENCE city_sequence START WITH 7;
+CREATE SEQUENCE country_sequence START WITH 9;
+CREATE SEQUENCE education_sequence START WITH 6;
+CREATE SEQUENCE institution_sequence START WITH 6;
+CREATE SEQUENCE skill_sequence START WITH 7;
+CREATE SEQUENCE specialization_sequence START WITH 6;
+CREATE SEQUENCE users_sequence START WITH 6;

@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - include:
+      file: liquibaseUserService/v1.0/create_enum_types.sql
+  - include:
+      file: liquibaseUserService/v1.0/create_table_country.sql
+  - include:
+      file: liquibaseUserService/v1.0/create_table_city.sql
+  - include:
+      file: liquibaseUserService/v1.0/create_table_skill.sql
+  - include:
+      file: liquibaseUserService/v1.0/create_table_specialization.sql
+  - include:
+      file: liquibaseUserService/v1.0/create_table_institution.sql
+  - include:
+      file: liquibaseUserService/v1.0/create_table_users.sql
+  - include:
+      file: liquibaseUserService/v1.0/create_table_education.sql
+  - include:
+      file: liquibaseUserService/v1.0/create_table_user_skill.sql
+  - include:
+      file: liquibaseUserService/v1.0/fill_all_tables.sql
+  - include:
+      file: liquibaseUserService/v1.0/sequence.sql

@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: liquibaseUserService/v2.0/changelog_v2.0.yml
+  - include:
+      file: liquibaseUserService/v2.1/changelog_v2.1.yml
