@@ -98,7 +98,6 @@ public class UserController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void updateEmail(@RequestBody @Valid UserEmailDto userEmailDto, Principal principal) {
         //TODO:обновление в тестинг сервисе
-        //TODO: надо как-то продумать верификацию почты, что делать, если она не была сделана
         userService.updateEmail(userEmailDto);
         candidateService.updateEmail(userEmailDto);
         producer.sendMessageUserChange(DATABASE_USER_CHANGE, KEY_ID_UPDATE_EMAIL,
